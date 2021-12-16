@@ -138,3 +138,17 @@ footer{
   padding: 10px;
   background-color: #12372F;
 }
+.alphabet{
+  text-align: left;
+}
+.alphabet h3{
+  text-align: left;
+  background-color: #12372F;
+  color: white;
+}
+.alphabet img{
+  margin-right: 10px;
+  margin-bottom: 40px;
+  float: left;
+  height: 160px;
+}
