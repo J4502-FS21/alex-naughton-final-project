@@ -5,6 +5,9 @@ body{
   margin: auto;
   padding: auto;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 h2{
   font-family: "Rokkitt", serif;
@@ -151,4 +154,33 @@ footer{
   margin-bottom: 40px;
   float: left;
   height: 160px;
+}
+#coolButton {
+  width: 100%;
+  max-width: 250px;
+  margin: 1rem auto;
+  display: block;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+#myDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem auto;
+  font-size: 1.75rem;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+.gallery img{
+  width: 100%;
+  max-width: 350px;
+  margin: 1rem auto;
+  display: block;
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
